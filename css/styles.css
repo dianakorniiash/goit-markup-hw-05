@@ -520,6 +520,9 @@ a {
 
 
 /* Modal */
+.medium {
+    font-weight: 500;
+}
 .modal-overlay {
     background: var(--modal-overlay);
     position: fixed;
