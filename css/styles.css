@@ -609,9 +609,9 @@ a {
     fill: var(--white-background);
 }
 
-.modal .section-text {
+.modal .footer-text-medium {
     text-align: center;
-    color: var(--dark);
+    color: #2e2f42;
 }
 
 .label-box {
