@@ -725,3 +725,36 @@ input::placeholder {
     letter-spacing: 0.04em;
     color: var(--modal-overlay);
 }
+.subscribe-button:hover,
+.subscribe-button:focus {
+    background-color: var(--pressed-state);
+    cursor: pointer;
+}
+
+.subscribe-form .icon {
+    margin-left: 16px;
+}
+.subscribe-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: var(--primary-brand);
+    color: var(--white-background);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: fit-content;
+    height: 40px;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    min-width: 165px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
